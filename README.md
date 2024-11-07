@@ -44,28 +44,3 @@ bash
 Copy code
 yarn start
 The app will be accessible at http://localhost:3000.
-
-Project Structure
-bash
-Copy code
-bookfinder/
-├── public/
-│   ├── index.html             # Main HTML file
-├── src/
-│   ├── components/            # React components for book search, details, etc.
-│   │   ├── BookCard.js        # Displays a single book card
-│   │   ├── BookDetails.js     # Displays detailed information for a single book
-│   │   └── SearchBar.js       # Search bar to search for books
-│   ├── App.js                 # Main app component
-│   ├── index.js               # React entry point
-│   ├── styles/                # Styling folder for CSS files
-│   │   └── bookDetails.css    # Styles for book details page
-│   └── App.css                # General app styling
-└── README.md                  # This README file
-Usage
-Search for Books: On the main page, type in the title of the book you want to find in the search bar. The app will display a list of matching books.
-View Book Details: Click on any book to view detailed information like the book cover, author(s), publisher, year of publication, and the number of pages.
-Example
-Search Query: "Harry Potter"
-
-The app will display books related to "Harry Potter" along with their covers and details.
