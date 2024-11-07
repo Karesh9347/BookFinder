@@ -1,0 +1,63 @@
+/* App.css */
+
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+  }
+  
+  /* Home Page */
+ 
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+  
+  .search-input {
+    padding: 12px 20px;
+    font-size: 1rem;
+    width: 70%;
+    max-width: 500px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    font-size: 1rem;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #357ab7;
+  }
+  
+  /* Loading and Result Messages */
+  .loading-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  .no-results {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #f00;
+  }
+  

@@ -1,0 +1,82 @@
+/* Styling for the entire book details page */
+.book-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+  }
+  
+  /* Styling for the book image container */
+  .book-cover-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  
+  .book-cover-image {
+    width: 250px;
+    height: 375px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-cover-placeholder {
+    width: 110%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the book information section */
+  .book-information {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+  }
+  
+  .book-information h4 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .book-information ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .book-information ul li {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .book-author,
+  .book-publisher,
+  .book-year {
+    font-weight: 600;
+    color: #777;
+  }
+  
+  .book-information .book-publisher::before {
+    content: '—';
+    margin-right: 5px;
+  }
+  
