@@ -28,7 +28,7 @@ Follow these steps to set up and run the project locally:
 git clone https://github.com/Karesh934/bookfinder.git
 cd bookfinder```
 
-###install the react
+###2.create react app
 ```bash
 npx create-react-app book_finder
 cd book_finder
