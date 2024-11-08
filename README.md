@@ -29,11 +29,11 @@ git clone https://github.com/Karesh934/bookfinder.git
 cd bookfinder```
 
 ###2.create react app
-```bash
+
 npx create-react-app book_finder
 cd book_finder
-along with react install react router dom and axios
-bash
+#along with react install react router dom and axios
+
 npm install react-router-dom
 npm install axios
 #now start the application
