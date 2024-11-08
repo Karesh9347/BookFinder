@@ -32,8 +32,11 @@ cd bookfinder```
 ```bash
 npx create-react-app book_finder
 cd book_finder
-```
 along with react install react router dom and axios
-```bash
+bash
 npm install react-router-dom
-npm install axios```
+npm install axios
+#now start the application
+npm start```
+
+This `README.md` gives an overview of the app, setup instructions, usage information, and other relevant details to help users and contributors get started with **BookFinder**.
