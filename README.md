@@ -26,14 +26,14 @@ Follow these steps to set up and run the project locally:
 
 ```bash
 git clone https://github.com/Karesh934/bookfinder.git
-cd bookfinder
+cd bookfinder```
 
 ###install the react
 ```bash
 npx create-react-app book_finder
 cd book_finder
 ```
-along with react instal react router dom and axios
+along with react install react router dom and axios
 ```bash
 npm install react-router-dom
 npm install axios```
